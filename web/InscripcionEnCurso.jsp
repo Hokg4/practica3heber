@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <div style="text-align: center;">
         <h1>Inscripcion en curso</h1>
        	<form action="ServletControlador" method="POST">
 		<p>Nombre: <input type="text" name="nombre" required></p>
@@ -28,6 +29,7 @@
                 <br>
 		<input type="submit" value="Enviar">
 	</form>
+        </div>
      
     </body>
 </html>

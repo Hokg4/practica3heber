@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <div style="text-align: center;">
         <h1>Registro de Productos</h1>
         <form action="ServletControlador3" method="post">
 		<p>Producto<input type="text" name="producto" required></p>
@@ -27,9 +28,10 @@
 			<option value="electrodomestico">Electrodomestico</option>
 			
 		</select></p>
-		<p>Existencia<input type="number" name="existencia">Existencias</p>
+		<p>Existencia<input type="number" name="existencia"></p>
 		<p>Precio<input type="number" name="precio"></p>
 		<p><input type="submit" name="Enviar"></p>
 	</form>
+        </div>
     </body>
 </html>

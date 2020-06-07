@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <div style="text-align:center;">
         <h1>Registro De Libros</h1>
         <form action="ServletControlador4" method="post">
 	
@@ -25,5 +26,6 @@
 	<input type="submit" value="Enviar">
 
        </form>
+        </div>
     </body>
 </html>

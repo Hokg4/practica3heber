@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <div style="text-align: center;">
         <h1>Registro De Usuario</h1>
       	<form action="ServletControlador2" method="POST">
 		<p>Nombre <input type="text" name="nombre" required></p>
@@ -20,6 +21,7 @@
 		<p>Contraseña <input type="password" name="clave" required></p>
 		<input type="submit" name="Enviar">
 	</form>
+        </div>
 
     </body>
 </html>

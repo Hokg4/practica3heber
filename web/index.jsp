@@ -6,18 +6,26 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>JSP Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
-        <link rel="stylesheet" href="css\fontello.css" type="text/css"><link>
-        <link rel="stylesheet" href="css\estilos.css" type="text/css"><link>
-        <link rel="stylesheet" href="<c:url value="css\estilos.css"/>" >
+       
+       
+        <style type="text/css"><%@include file="WEB-INF/css/fontello.css"%>
+                                 <%@include file="WEB-INF/css/estilos.css"%>
+                                 <%@include file="WEB-INF/css/menu.css"%>
+                                 <%@include file="WEB-INF/css/banner.css"%>                         
+        </style>
+   
         
     </head>
     <body>
+        
         
         <header>
         
@@ -35,10 +43,11 @@
             
         </div>
         </header>
+        
         <main>
         <section id="banner">
         
-		<img src="img/Tec5.jpg" alt="">
+            <img src="Tec5.jpg" alt="">
 		<div class="contenedor">
 			<h2>Alumno: Heber Tola Sanchez</h2>
 			<p>Para desplegar el menu responsive ir a la equina superior derecha</p>
